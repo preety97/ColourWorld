@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" formatted="true">ColourWorld</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="feefback">Give Feedback</string>
+    <string name="email_id">enquiry@o7services.com</string>
+
+    <string name="version">Version</string>
+    <string name="version_name">1.0</string>
+    <string name="rating">Rate this app</string>
+    <string name="comp">O7 Services is a company and is one of the prominent IT companies which is forerunner in services of consulting services and Web Solution business that visualizes and led way to the acceptance of the flexible global business practices that today enable companies to operate more resourcefully and give power to produce more worth.
+    Our Vision is to provide Best Training to the budding professionals and to provide top quality services in Software, Web, Mobile Apps, Enterprise-Apps Development and Server-Network based solutions.
+    Our Mission is to board maximum Organizations and boost the business growth of our customers with creative Design and Development to deliver market-defining high-quality solutions that create value and consistent competitive advantage for our clients around the world.
+    </string>
+
+    <string name="choose_one">Choose One</string>
+
+    <string name="company_link">http://www.o7services.com</string>
+    <string name="student_profile">Student Profile</string>
+
+    <string name="store_name">Google Play Store</string>
+    <string name="app_store">https://play.google.com/store/apps/details?id=com.o7services.o7services</string>
+
+    <string name="info_trainer">Trainer</string>
+    <string name="trainer_name">Hardeep Singh</string>
+
+    <string name="company_name">O7Servies</string>
+
+    <string name="about">O7 Services is a company and is one of the prominent IT companies which is forerunner in services of consulting services and Web Solution business that visualizes and led way to the acceptance of the flexible global business practices that today enable companies to operate more resourcefully and give power to produce more worth.
+    Our Vision is to provide Best Training to the budding professionals and to provide top quality services in Software, Web, Mobile Apps, Enterprise-Apps Development and Server-Network based solutions.
+    Our Mission is to board maximum Organizations and boost the business growth of our customers with creative Design and Development to deliver market-defining high-quality solutions that create value and consistent competitive advantage for our clients around the world. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

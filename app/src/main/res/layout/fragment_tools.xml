@@ -1,0 +1,80 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/sports"
+                android:foreground="@drawable/btn"
+                android:layout_weight="1"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="60dp"
+                app:cardCornerRadius="8dp"
+                android:onClick="brushes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/menu"
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/brushp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp" />
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:text="Brushes"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#f67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/rollers"
+                android:layout_weight="1"
+                android:foreground="@drawable/btn"
+                android:layout_marginRight="60dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="30dp"
+                android:onClick="festival"
+                android:layout_marginLeft="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/roller"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Rollers"
+                        android:textColor="#f67"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+</ScrollView>

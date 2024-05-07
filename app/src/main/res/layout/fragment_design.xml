@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loglayr"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:textColor="#0b0b0b"
+            android:layout_marginTop="30dp"
+            android:text="Custom Design"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="30dp"
+            android:textSize="40sp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="imageLoad"
+            android:id="@+id/imageView2"
+            android:text=" TAKE PHOTO "
+            android:textColor="#FFFFFF"
+            android:background="#fdef236a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="76dp" />
+
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/profile_image"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <Button
+            android:layout_marginTop="60dp"
+            android:background="#fdef236a"
+            android:layout_marginLeft="80dp"
+            android:text="Upload"
+            android:textColor="#FFFFFF"
+            android:id="@+id/upload"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/progressBar"
+        android:background="#000000"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

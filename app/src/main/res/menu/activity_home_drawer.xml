@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/hom"
+            android:title="Home" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/buckt"
+            android:title="Category" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/pas"
+            android:title="Update password" />
+        <item
+            android:id="@+id/custom"
+            android:icon="@drawable/buckt"
+            android:title="Custom design" />
+
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/shop"
+            android:title="Cart" />
+        <item
+            android:id="@+id/checkout"
+            android:icon="@drawable/check"
+            android:title="Checkout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/stuprofile"
+                android:icon="@drawable/stuprok"
+                android:title="Student Profile" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feed"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/abt"
+                android:title="About us" />
+
+
+            <item
+                android:visible="false"
+                android:id="@+id/rate"
+                android:icon="@drawable/rat"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/shr"
+                android:title="Share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/loh"
+                android:title="Login" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/loh"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

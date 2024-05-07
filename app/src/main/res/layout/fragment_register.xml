@@ -1,0 +1,245 @@
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgreg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+         <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:textColor="#0b0b0b"
+
+                android:text="Register"
+                android:fontFamily="cursive"
+                android:layout_marginLeft="60dp"
+                android:textSize="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+               <ImageView
+                   android:layout_marginTop="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/sa"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+
+           </LinearLayout>
+
+               <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:id="@+id/name"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/use"
+                android:hint="  Enter your name"
+                android:textSize="18dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             </android.support.design.widget.TextInputLayout>
+         </LinearLayout>
+
+
+             <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                 <android.support.design.widget.TextInputLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                 <EditText
+                     android:inputType="text"
+                     android:padding="10dp"
+                     android:layout_marginLeft="40dp"
+                     android:layout_marginRight="40dp"
+                     android:textSize="18dp"
+                     android:paddingLeft="10dp"
+                     android:id="@+id/city"
+                     android:drawableLeft="@drawable/cit"
+                    android:hint="   Enter your city"
+                    android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+                 </android.support.design.widget.TextInputLayout>
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+
+
+                 <android.support.design.widget.TextInputLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                     <EditText
+                         android:drawableLeft="@drawable/addr"
+                         android:id="@+id/address"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginRight="40dp"
+                         android:layout_marginLeft="40dp"
+                         android:hint="  Enter your address"
+                         android:inputType="textLongMessage"
+                         android:padding="10dp"
+                         android:paddingLeft="10dp"
+                         android:textSize="18dp" />
+                 </android.support.design.widget.TextInputLayout>
+
+             </LinearLayout>
+
+             <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/gendr"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:layout_marginRight="50dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_marginTop="18dp"
+                        android:text="MALE"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:textStyle="bold"
+                        android:id="@+id/female"
+                        android:text="FEMALE"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <EditText
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/mob"
+                    android:layout_marginRight="40dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/contact"
+                    android:inputType="number"
+                    android:hint="  Enter your number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+             <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                 <android.support.design.widget.TextInputLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/mail"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textSize="18dp"
+                android:id="@+id/email"
+                android:hint="  Enter your email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                 </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+             <Button
+                 android:background="#fdef236a"
+                 android:id="@+id/reg"
+                 android:layout_marginTop="20dp"
+                 android:text="Register"
+                 android:padding="10dp"
+                 android:textColor="#fff"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:layout_marginLeft="100dp"
+                 android:layout_marginRight="100dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="45dp" />
+             <TextView
+                 android:textColor="#000"
+                 android:id="@+id/login"
+                 android:layout_marginTop="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+
+                 android:text="Already a user , Login here!"
+                 android:gravity="center"
+                 android:textSize="18dp"/>
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:visibility="gone"
+                android:background="#000000"
+                android:alpha="0.3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ProgressBar
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
